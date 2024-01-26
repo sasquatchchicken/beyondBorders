@@ -1,4 +1,3 @@
-# this script can be modified for user-case specifics. Don't do anythong illegal. For Educational and testing purposes.
 
 import uuid
 import ipaddress
@@ -79,3 +78,5 @@ driver.add_cookie({'name': 'countryCode', 'value': country_code})
 
 # Close the browser window
 #driver.quit()
+# Driver.quit() is commented out for verification purposes so you can open dev tools and inspect.  Also note that headless really only works with Chrome as firefox still opens a browser_window.  Have not figured out how to resolve it 
+# this script can be modified for user-case specifics. Don't do anythong illegal. For Educational and testing purposes.
