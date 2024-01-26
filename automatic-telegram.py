@@ -1,3 +1,5 @@
+# this script can be modified for user-case specifics. Don't do anythong illegal. For Educational and testing purposes.
+
 import uuid
 import ipaddress
 import random
@@ -39,6 +41,7 @@ for ip_info in response:
         print(k, v)
     print('\n')
 
+# choose between Firefox or Chrome
 # Create a new instance of the Firefox driver in headless mode
 options = webdriver.FirefoxOptions()
 options.headless = True
@@ -52,7 +55,7 @@ driver = webdriver.Chrome(options=options)
 '''
 
 # Navigate to a website (your target URL goes here)
-driver.get("https://linktr.ee/admin")
+driver.get("https://INSERT-TARGET-URL")
 
 # List of cookies to delete
 cookies_to_delete = ['browserId', 'countryCode', 'sessionId']
