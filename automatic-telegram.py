@@ -57,6 +57,7 @@ driver = webdriver.Chrome(options=options)
 driver.get("https://INSERT-TARGET-URL")
 
 # List of cookies to delete
+# Adjust as needed
 cookies_to_delete = ['browserId', 'countryCode', 'sessionId']
 
 # Iterate over cookies and delete if they exist
